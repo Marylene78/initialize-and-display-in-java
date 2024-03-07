@@ -1,0 +1,19 @@
+public class Student {
+  private  String Name;
+  private String Regno;
+   
+   public Student (String Name,  String Regno) {
+     this.Name=Name;
+     this.Regno=Regno;
+   }
+   public void displaymembers() {
+     System.out.println("The name of the student is " + Name);
+  System.out.println("The Registration number of the student is " + Regno);
+   }
+   public static void main(String[]args) {
+     Student S1= new Student ("Marylene M", "P101/1737G/21");
+      Student S2= new Student ("Melvin M", "P101/1777G/20");
+      S1.displaymembers();
+       S2.displaymembers();
+   }
+}
